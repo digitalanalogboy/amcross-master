@@ -25,7 +25,7 @@ class Header extends React.PureComponent {
                   <div className="byline-container" style={{display: 'flex', flexDirection: 'row', color: '#000000', fontWeight: 500}}>
                     <div>
                       <div style={{fontWeight: 'bold'}}>
-                        Created by
+                        Visualized by
                       </div>
                       <div>
                         {
@@ -35,15 +35,11 @@ class Header extends React.PureComponent {
                         }
                       </div>
                     </div>
-                    <div style={{marginLeft: 0}}>
+                    <div style={{marginLeft: -10}}>
                       <div style={{fontWeight: 'bold'}}>
                         {props.date}
                       </div>
-                      <div>
-                        <a href={this.props.source}>Source Code</a><br/>
-                        <a href={this.props.archive}>Offline Archive</a><br/>
-                        <a href={this.props.doi}>DOI</a>
-                      </div>
+                     
                     </div>
                 </div>
               </div>

@@ -10,20 +10,18 @@
 [Nav fullWidth:true /]
 
 [Header
-  title:`["Drought of the", "Sinking Delta"]`
-  longTitle:`["Drought of the Sinking Delta"]`
-  date:"October 19, 2020"
-  dek:"Things are out of joint in the delta of the Mekong, Southeast Asia’s largest river. Rising sea levels and subsiding land are threatening to flood the area. Simultaneously, the annual Monsoon inundations are delayed more and more often, while still retreating early, and leaving local fields parched. But why? Let's unravel a complex tangle of reasons, with climate change at its core."
+  title:`["Fostering Disaster-Ready Communities", "through Sustainable and Inclusive", "Disaster Risk Reduction in Indonesia"]`
+  longTitle:`["Fostering Disaster-Ready Communities through Sustainable and Inclusive Disaster Risk Reduction in Indonesia "]`
+  
+  dek:"Sejak Januari 2020, melanjutkan Program Pengurangan Risiko Bencana Berbasis Masyarakat atau Community based disaster risk reduction (CBDRR), Palang Merah Indonesia (PMI) bersama Palang Merah Amerika terus membangun kapasitas masyarakat sasaran dalam mempersiapkan dan merespons bencana, serta memperkuat kapasitas kelembagaan PMI dalam memberikan kebutuhan dasar melalui program Fostering Disaster-Ready Comunities throught Sustainable and Inclusive Disaster Risk Reduction (FDRCSI-DRR) atau program masyarakat siaga bencana melalui pengurangan risiko bencana berkelanjutan dan inklusif, yang melibatkan 12 komunitas di 2 provinsi."
   fullWidth:true
   headerImage:"static/images/header.jpg"
   authors:`[{
-    name: "Christina Orieschnig",
+    name: "Guerrilla Creative",
     role: "",
-    url: "http://typingquill.com/"
+    url: "https://gcid.work/"
   }]`
-  doi:"https://zenodo.org/badge/latestdoi/245054411"  
-  archive:"https://parametric-press-archives.s3-us-west-2.amazonaws.com/issue-02.wacz"
-  source:`"https://github.com/ParametricPress/02-" + parametricSlug `
+
 /]
 
 
@@ -40,31 +38,28 @@
 [var name:"scrollerIndex" value:0 /]
 
 [LedeA]
-Things are out of joint in the delta of the Mekong, Southeast Asia’s largest river. Rising sea levels and subsiding land are threatening to flood the area.
+Sejak Januari 2020, melanjutkan Program Pengurangan Risiko Bencana Berbasis Masyarakat atau Community based disaster risk reduction (CBDRR). 
+
+Palang Merah Indonesia (PMI) bersama Palang Merah Amerika terus membangun kapasitas masyarakat sasaran dalam mempersiapkan dan merespons bencana.
+
+Serta memperkuat kapasitas kelembagaan PMI dalam memberikan kebutuhan dasar melalui program Fostering Disaster-Ready Comunities throught Sustainable and Inclusive Disaster Risk Reduction (FDRCSI-DRR) atau program masyarakat siaga bencana melalui pengurangan risiko bencana berkelanjutan dan inklusif, yang melibatkan 12 komunitas di 2 provinsi.
 [/LedeA]
 
-[br/]
+// [br/]
 
-[LedeA]
-Simultaneously, the annual Monsoon inundations are delayed more and more often, while still retreating early, and leaving local fields parched.
+// [LedeA]
+// Simultaneously, the annual Monsoon inundations are delayed more and more often, while still retreating early, and leaving local fields parched.
 
-But why? Let's unravel a complex tangle of reasons, with climate change at its core.
-[/LedeA]
+// But why? Let's unravel a complex tangle of reasons, with climate change at its core.
+// [/LedeA]
 
 // BEGIN BODY TEXT
-Deltas have always been hubs of human development. Ancient civilizations flourished in the Nile and the Ganges deltas. Today, [link text:"half a billion people" url:"https://www.nsf.gov/discoveries/disc_summ.jsp?cntn_id=138738&org=NSF&from=news" /] call deltas home—even though they cover only 1% of the earth's land surface. With rich crops and abundant fish, deltas are crucial to food security and economic development.
+Palang Merah Amerika dan PMI telah memilih dua kabupaten di dua provinsi (masing-masing satu) untuk implementasi
+Kabupaten Lampung Selatan di Provinsi Lampung dan Kabupaten Manggarai Barat di Provinsi Nusa Tenggara Timur (NTT). Hal ini didasarkan kondisi kebencanaan yang ada di kedua daerah serta Hasil Branch Organizational Capacity Assessment (BOCA) PMI terbaru digunakan juga sebagai acuan dalam memilih kedua provinsi tersebut
 
-However, deltas are also extremely vulnerable.
 
-Located at the intersection of terrestrial and aquatic ecosystems, a delta's entire existence depends on a delicate balance of factors: Temperature. Freshwater and saltwater. Precipitation and river flow.
-
-In the Mekong delta, this balance has been disturbed. As a consequence, the delta of Southeast Asia's largest river is both sinking and drying out at the same time. While ever-rising waves lap away at the coastline, and higher sea levels push salty water into the delta, severe droughts are leaving the landscape parched.
-
-But what exactly causes this double threat? And what can be done about it?
-
-The answers to these questions are as complex as the environmental and political problems casting their shadows over the region.
-
-At the heart of the issue: Climate change.
+[ParametricGraphic fullWidth:true style:`{maxWidth: 1280, margin: '1em auto'}`][iframe width:"1280" height:"720" src:"https://www.youtube.com/embed/Sr30IEiPoC4"]
+[/iframe][/ParametricGraphic]
 
 ##Living with the River
 
@@ -115,27 +110,27 @@ On these floodplains, both biodiversity and agriculture flourish. Over eighteen 
 
 [/Scroller]
 
-[br /]
+[br /][br /]
 
 The abundant fertility of the Mekong delta is based on the annual Monsoon cycle.
 
 Fed by torrential rains, the Mekong begins to swell in June, overbrimming its banks and inundating the surrounding floodplains. The land remains underwater for several months, until the flood begins to recede in October or November.
 
-[ParametricGraphic fullWidth:true style:`{maxWidth: 960, margin: '1em auto'}` hed:"A Landscape: Flooded and Dry" subhed:"Satellite images of the same area during the dry and wet seasons show a stark contrast: One image shows lush, green fields. The other, wide expanses of open water." source:"ESA, Sentinel-2"]
+// [ParametricGraphic fullWidth:true style:`{maxWidth: 960, margin: '1em auto'}` hed:"A Landscape: Flooded and Dry" subhed:"Satellite images of the same area during the dry and wet seasons show a stark contrast: One image shows lush, green fields. The other, wide expanses of open water." source:"ESA, Sentinel-2"]
 
-  //vertical
-  [Conditional if:`!isMobile `]
-    [iframe frameBorder:"0" className:"juxtapose" width:"100%" height:"491" src:"https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=62914f70-c2b6-11ea-bf88-a15b6c7adf9a"]
-    [/iframe]
-  [/Conditional]
+//   //vertical
+//   [Conditional if:`!isMobile `]
+//     [iframe frameBorder:"0" className:"juxtapose" width:"100%" height:"491" src:"https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=62914f70-c2b6-11ea-bf88-a15b6c7adf9a"]
+//     [/iframe]
+//   [/Conditional]
 
-  //V2 horizontal
-  [Conditional if:`isMobile `]
-    [iframe frameBorder:"0" className:"juxtapose" width:"100%" height:"491" src:"https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=3ae05cf4-c2b7-11ea-bf88-a15b6c7adf9a"]
-    [/iframe]
-  [/Conditional]
+//   //V2 horizontal
+//   [Conditional if:`isMobile `]
+//     [iframe frameBorder:"0" className:"juxtapose" width:"100%" height:"491" src:"https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=3ae05cf4-c2b7-11ea-bf88-a15b6c7adf9a"]
+//     [/iframe]
+//   [/Conditional]
 
-[/ParametricGraphic]
+// [/ParametricGraphic]
 
 Far from being a disaster, these inundations are welcomed by the local inhabitants.
 
@@ -455,8 +450,6 @@ A second dam in the series, Don Sahong, began operating in Laos in January 2020,
 
 The [link text:"Mekong River Commission (MRC)" url:"http://www.mrcmekong.org/about-mrc/" /], an intergovernmental body created to "jointly manage the shared water resources and the sustainable development of the Mekong River", attempts to mediate water use conflicts. But it still appears that dam operators optimize their water usage for power generation, with little regard for downstream effects.
 
-[Recirc slug:parametricSlug /]
-
 // [MattNote]Will update the style of this thing so it isn't so visually loud[/MattNote]
 
 The predominance of hydropower projects is also a result of Chinese influence over Southeast Asia. Chinese companies and government initiatives invest heavily in infrastructure projects in countries like Laos and Cambodia. Local politicians welcome funding with open arms, seeing it as a safeguard for both their citizens' prosperity and their own political future.
@@ -583,6 +576,3 @@ All images and videos courtesy of the author unless otherwise noted.
 
 [NextArticle slug:parametricSlug fullWidth:true /]
 [Footer fullWidth:true /]
-
-// Uncomment before pub
-[Analytics google:"UA-139053456-1" tag:parametricSlug /]

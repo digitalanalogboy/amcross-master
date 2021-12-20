@@ -2460,13 +2460,13 @@ p {
   border-top: none;
 }
 .parametric-header-text .parametric-long-title {
-  font-size: 120px;
-  line-height: 120px;
+  font-size: 60px;
+  line-height: 60px;
   font-weight: bold;
   font-family: 'Graphik Web';
   max-width: none;
   text-align: center;
-  color: #D8FFA2;
+  color: #e20a16;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #222;
 }
@@ -2486,7 +2486,7 @@ p {
   padding: 2em;
   height: 100vh;
 }
-.parametric-article-nav {
+/* .parametric-article-nav {
   position: sticky;
   top: 0;
   padding-top: 0.5em;
@@ -2497,7 +2497,7 @@ p {
   padding-right: 50px;
   padding-bottom: 0.5em;
   margin-bottom: 2em;
-}
+} */
 .article-header .idyll-text-container {
   margin-left: 0;
 }
